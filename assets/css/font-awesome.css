@@ -4,6 +4,8 @@
  */
 /* FONT PATH
  * -------------------------- */
+ 
+ 
 @font-face {
   font-family: 'FontAwesome';
   src: url('../fonts/fontawesome-webfont.eot?v=4.2.0');
@@ -11,6 +13,8 @@
   font-weight: normal;
   font-style: normal;
 }
+
+
 .fa {
   display: inline-block;
   font: normal normal normal 14px/1 FontAwesome;
@@ -1181,6 +1185,12 @@
 .fa-youtube:before {
   content: "\f167";
 }
+.fa-youtubecolor-square:before {
+  content: "\f166";
+}
+.fa-youtubecolor:before {
+  content: "\f167";
+}
 .fa-xing:before {
   content: "\f168";
 }
@@ -1188,6 +1198,9 @@
   content: "\f169";
 }
 .fa-youtube-play:before {
+  content: "\f16a";
+}
+.fa-youtubecolor-play:before {
   content: "\f16a";
 }
 .fa-dropbox:before {
